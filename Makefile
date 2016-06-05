@@ -9,3 +9,7 @@ tree : tree.s
 
 .PHONY : all
 all : tree
+
+.PHONY : clean
+clean :
+	rm *.ll *.s tree
